@@ -1,0 +1,218 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>School Achivments</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/images-logo.jpeg' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+  <link href= "{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="{% static "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" %}" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+{% include 'header.html' %}
+  <!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Achivments</h2>
+          <ol>
+            <li><a href="{% url "home" %}">Home</a></li>
+            <li>Achivments of school</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+    <!-- About achivmets -->
+    <section id="about-us" class="about-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h2>Welcome to the Village School Achievements Page!</h2>
+            <h3> At our school, we take pride in the accomplishments of our students, teachers, and staff. We believe in recognizing and celebrating their hard work, dedication, and success.
+               Here are some notable achievements that make us proud:</h3>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+            
+            <ul>
+              <li><i class="ri-check-double-line"></i> Academic Achievements</li>
+              <li><i class="ri-check-double-line"></i> Sports Achievements</li>
+              <li><i class="ri-check-double-line"></i> Cultural and Artistic Achievements</li>
+              <li><i class="ri-check-double-line"></i> Science and Innovation Achievements</li>
+              <li><i class="ri-check-double-line"></i> Teacher and Staff Achievements</li>
+            </ul>
+            <p class="fst-italic">
+              We celebrate these achievements through award ceremonies, recognition events, and by prominently showcasing them in our school. They inspire and motivate our students to strive for excellence, and they serve as a testament to the quality of education we provide.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- end about achivements -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="row">
+              <div class="col-lg-6 col-md-12 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in-left" data-aos-delay="300">
+                <div class="icon-box iconbox-pink">
+                  <img src="{% static "assets/img/school/high exam result.jpg" %}" style="height:300px;width:100%;"/>     
+                  <h4><a href="">Academic Achievements:</a></h4>
+                  <p>1-High Exam Results: Our students consistently achieve excellent results in local and national examinations, 
+                    showcasing their academic prowess and the effectiveness of our teaching methodologies.
+                    2-Scholarships and Awards: Many of our students have been awarded scholarships and prestigious academic awards,
+                     recognizing their exceptional performance and dedication to their studies.
+                    </p>
+                </div>
+              </div>
+    
+              <div class="col-lg-6 col-md-12 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in-right" data-aos-delay="300">
+                <div class="icon-box iconbox-pink">
+                  <img src="{% static "assets/img/school/sport achivement.jpg" %}" style="height:300px;width:100%;"/>     
+                  <h4><a href="">Sports Achievements:</a></h4>
+                  <p>1-championship Titles: Our school's sports teams have won numerous championship titles in various sports competitions at the local,
+                    regional, and even national levels.
+                    2-Individual Achievements: Our students have also excelled individually, earning medals, trophies,
+                     and recognition in sports events such as athletics, soccer, basketball, cricket, and more.
+                    </p>
+                </div>
+              </div>
+    
+              <div class="col-lg-6 col-md-12 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in-left" data-aos-delay="300">
+                <div class="icon-box iconbox-pink">
+                  <img src="{% static "assets/img/school/culture achivmet.jpg" %}" style="height:300px;width:100%;"/>     
+                  <h4><a href="">Cultural and Artistic Achievements:</a></h4>
+                  <p>1-Cultural Festivals: Our students have participated in cultural festivals and competitions,
+                     showcasing their talents in dance, music, drama, and traditional art forms. They have won accolades for their performances and represented our village with pride.
+                    2-Art Exhibitions: Our budding artists have received recognition for their artwork,
+                     participating in local art exhibitions and earning praise for their creativity and artistic skills.
+                    </p>
+                </div>
+              </div>
+    
+              <div class="col-lg-6 col-md-12 d-flex align-items-stretch mt-4" data-aos="zoom-in-right" data-aos-delay="100">
+                <div class="icon-box iconbox-yellow">
+                  <img src="{% static "assets/img/school/science achivment.jpeg" %}" style="height:300px;width:100%;"/>
+                  <h4><a href="">Science and Innovation Achievements: </a></h4>
+                  <p>1-Science Competitions: Our students have participated in science fairs and competitions, where they have won awards for their innovative projects and scientific research.
+                    2-Robotics and STEM Challenges: Our school's robotics team has achieved commendable results in regional and national robotics competitions,
+                     demonstrating their skills in engineering, programming, and problem-solving.</p>
+                </div>
+              </div>
+    
+              <div class="col-lg-6 col-md-12 d-flex align-items-stretch mt-4" data-aos="zoom-in-left" data-aos-delay="200">
+                <div class="icon-box iconbox-red">
+                  <img src="{% static "assets/img/school/cummunity.jpg" %}" style="height:300px;width:100%;"/>
+                  <h4><a href="">Community Service Achievements:</a></h4>
+                  <p>Philanthropic Initiatives: Our students actively engage in community service projects, contributing to the welfare of the village and beyond. They have received recognition for their efforts in initiatives such as fundraisers,
+                     environmental clean-ups, and volunteering at local organizations. </p>
+                </div>
+              </div>
+    
+              <div class="col-lg-6 col-md-12 d-flex align-items-stretch mt-4" data-aos="zoom-in-left" data-aos-delay="300">
+                <div class="icon-box iconbox-teal">
+                  <img src="{% static "assets/img/school/leadership devlopment.jpg" %}" style="height:300px;width:100%;"/>
+                  <h4><a href="">Leadership and Personal Development:</a></h4>
+                  <p>1-Student Council: Our school's student council members have shown exceptional leadership skills, organizing events, 
+                    initiating positive changes, and representing the student body effectively.
+                    2-Public Speaking and Debating: Our students have excelled in public speaking and debating competitions,
+                     demonstrating their eloquence, critical thinking abilities, and effective communication skills.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 d-flex align-items-stretch mt-4" data-aos="zoom-in-left" data-aos-delay="100">
+                <div class="icon-box iconbox-yellow">
+                  <img src="{% static "assets/img/school/teacher personality devlopment.jpeg" %}" style="height:300px;width:100%;"/>
+                  <h4><a href="">Teacher and Staff Achievements: </a></h4>
+                  <p>1-Professional Development: Our teachers and staff continuously engage in professional development programs,
+                     attending workshops and conferences to enhance their teaching methodologies and stay updated with the latest educational practices.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 d-flex align-items-stretch mt-4" data-aos="zoom-in-right" data-aos-delay="100">
+                <div class="icon-box iconbox-yellow">
+                  <img src="{% static "assets/img/school/teacher award.jpg" %}" style="height:300px;width:100%;"/>
+                  <h4><a href="">Teacher and Staff Achievements: </a></h4>
+                  <p>2-Awards and Recognition: Our teachers and staff have received accolades and 
+                    certifications for their exceptional contributions to education and their commitment to student success.</p>
+                </div>
+              </div>
+
+
+              <div class="col-lg-12 col-md-12 " data-aos="zoom-out">
+                <div>
+                  <h4>
+                    <p>
+                      These achievements reflect the dedication, hard work, and talents of our school community. We are proud of each and every individual who has contributed to these accomplishments.
+
+We celebrate these achievements through award ceremonies, recognition events, and by prominently showcasing them in our school. They inspire and motivate our students to strive for excellence, and they serve as a testament to the quality of education we provide.
+
+We look forward to more achievements and success stories in the future as we continue to nurture and support the growth of our students and the entire school community.
+
+If you have any questions or would like to learn more about our achievements, please feel free to contact our school office.
+                    </p>
+                  </h4>
+                </div>
+              </div>
+            
+    
+          </div>
+        </section><!-- End Services Section -->
+
+    <!-- 
+  </main><!-End #main -->
+
+ <!-- ======= Footer ======= -->
+ {% include 'footer.html' %}
+ <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+ <!-- Vendor JS Files -->
+ <script src= "{% static "assets/vendor/aos/aos.js" %}"></script>
+ <script src="{% static "assets/vendor/bootstrap/js/bootstrap.bundle.min.js" %}"></script>
+ <script src="{% static "assets/vendor/glightbox/js/glightbox.min.js" %}"></script>
+ <script src="{% static "assets/vendor/isotope-layout/isotope.pkgd.min.js" %}"></script>
+ <script src="{% static "assets/vendor/swiper/swiper-bundle.min.js" %}"></script>
+ <script src="{% static "assets/vendor/waypoints/noframework.waypoints.js" %}"></script>
+ <script src="{% static "assets/vendor/php-email-form/validate.js" %}"></script>
+
+ <!-- Template Main JS File -->
+ <script src="{% static "assets/js/main.js" %}"></script>
+</body>
+
+</html>
