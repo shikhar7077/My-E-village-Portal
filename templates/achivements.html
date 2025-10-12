@@ -1,0 +1,223 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Blog - Company Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static "assets/img/favicon.png" %}" rel="icon">
+  <link href="{% static "assets/img/apple-touch-icon.png" %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="{% static "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" %}" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static "assets/vendor/animate.css/animate.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/aos/aos.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/bootstrap-icons/bootstrap-icons.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/boxicons/css/boxicons.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/glightbox/css/glightbox.min.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/remixicon/remixicon.css" %}" rel="stylesheet">
+  <link href="{% static "assets/vendor/swiper/swiper-bundle.min.css" %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static "assets/css/style.css" %}" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  {% include 'header.html' %}
+  <!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>our E-village achivmets</h2>
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li>Achivments</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" >
+
+        <div class="row">
+
+          <div class="col-lg-12 ">
+
+            <article class="entry">
+
+              <div class="entry-img" data-aos="fade-down">
+                <img src="{% static "assets/img/v_achivements/infra_achivement.jpg" %}" alt="" class="img-fluid" style="height:700px;width:100%;">
+              </div>
+
+
+              <div class="entry-content" data-aos="zoom-in-up">
+                <h2>Infrastructure Development:</h2>
+                <p>
+                  Improvements in infrastructure, such as the construction of roads, bridges, 
+                  schools, healthcare facilities, and community centers, lead to enhanced connectivity and access to basic services.
+                </p>
+                
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry">
+
+              <div class="entry-img" data-aos="zoom-in-up">
+                <img src="{% static "assets/img/v_achivements/education achivements.jpg" %}" alt="" class="img-fluid" style="height:700px;width:100%;">
+              </div>
+
+
+              <div class="entry-content" data-aos="fade-down">
+                <h2>Education: </h2>
+                <p>
+                  Increased literacy rates, establishment of schools, vocational training centers,
+                   and access to quality education contribute to empowering the youth and building a skilled workforce.
+                </p>
+                
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry">
+
+              <div class="entry-img" data-aos="zoom-in-up">
+                <img src="{% static "assets/img/v_achivements/healthcare achivements.webp" %}" alt="" class="img-fluid" style="height:700px;width:100%;">
+              </div>
+
+
+              <div class="entry-content" data-aos="fade-down">
+                <h2>Healthcare:</h2>
+                <p>
+                  Healthcare: Improved healthcare services, better sanitation facilities,
+                   and increased awareness about hygiene practices lead to better health outcomes and reduced mortality rates.
+                </p>
+                
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry">
+
+              <div class="entry-img" data-aos="zoom-in-up">
+                <img src="{% static "assets/img/v_achivements/agriculture achivements.jpg" %}" alt="" class="img-fluid" style="height:700px;width:100%;">
+              </div>
+
+
+              <div class="entry-content" data-aos="fade-down">
+                <h2>Agricultural Advancements:</h2>
+                <p>
+                   Implementing modern farming techniques, access to irrigation facilities,
+                   and the adoption of sustainable agricultural practices lead to increased crop yields and enhanced livelihoods for farmers.
+                </p>
+                
+              </div>
+
+            </article><!-- End blog entry -->
+            <article class="entry">
+
+              <div class="entry-img" data-aos="zoom-in-up">
+                <img src="{% static "assets/img/v_achivements/women empowerment.jpg" %}" alt="" class="img-fluid" style="height:700px;width:100%;">
+              </div>
+
+
+              <div class="entry-content" data-aos="fade-down">
+                <h2> Women Empowerment: </h2>
+                <p>
+                 Initiatives that promote gender equality,
+                   women's education, and women's participation in decision-making contribute to the overall progress of rural communities.
+                </p>
+                
+              </div>
+
+            </article><!-- End blog entry -->
+
+            <article class="entry">
+
+              <div class="entry-img" data-aos="zoom-in-up">
+                <img src="{% static "assets/img/v_achivements/renwable energy.jpg" %}" alt="" class="img-fluid" style="height:700px;width:100%;">
+              </div>
+
+
+              <div class="entry-content"data-aos="fade-down">
+                <h2>Renewable Energy: </h2>
+                <p>
+                  Adoption of renewable energy sources such as solar power, 
+                  wind energy, and biogas can lead to energy independence and a greener environment.
+                </p>
+                
+            
+
+            </article><!-- End blog entry -->
+          <article class="entry">
+
+              <div class="entry-img" data-aos="zoom-in-up">
+                <img src="{% static "assets/img/v_achivements/Recognition and Awards.jpg" %}" alt="" class="img-fluid" style="height:700px;width:100%;">
+              </div>
+
+
+              <div class="entry-content" data-aos="fade-down">
+                <h2>Recognition and Awards:  </h2>
+                <p>
+                  Recognition and Awards: Receiving national or international recognition or 
+                  awards for notable initiatives and progress can further boost the morale and motivation of rural communities.
+                </p>
+                
+            
+
+          </article>
+
+       
+
+          </div><!-- End blog entries list -->
+
+          
+        </div>
+
+      </div>
+    </section><!-- End Blog Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  {% include 'footer.html' %}
+ <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static "assets/vendor/aos/aos.js" %}"></script>
+  <script src="{% static "assets/vendor/bootstrap/js/bootstrap.bundle.min.js" %}"></script>
+  <script src="{% static "assets/vendor/glightbox/js/glightbox.min.js" %}"></script>
+  <script src="{% static "assets/vendor/isotope-layout/isotope.pkgd.min.js" %}"></script>
+  <script src="{% static "assets/vendor/swiper/swiper-bundle.min.js" %}"></script>
+  <script src="{% static "assets/vendor/waypoints/noframework.waypoints.js" %}"></script>
+  <script src="{% static "assets/vendor/php-email-form/validate.js" %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static "assets/js/main.js" %}"></script>
+
+</body>
+
+</html>
